@@ -80,6 +80,13 @@ button{
     margin-block-end: 1.7rem;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    transition: all 2s ease-in-out ;
+}
+
 aside{
     background-color: hsl(179, 47%, 52%);
     padding-inline: 1.4rem;
