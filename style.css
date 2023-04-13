@@ -83,7 +83,7 @@ button{
 button:hover{
     cursor: pointer;
     background-color: blue;
-    color: white;
+    color: rgb(188, 255, 3);
     transition: all 2s ease-in-out ;
 }
 
@@ -101,10 +101,14 @@ aside h1{
     color: white;
 }
 
-aside p{
+aside ul{
     padding-block-end: 1.9rem;
     color: white;
     line-height: 1.5rem;
+}
+
+ul li {
+    list-style: none;
 }
 
 /* Desktop Design */
