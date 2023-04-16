@@ -11,20 +11,21 @@ body{
     max-width: 1025px;
     background-color: hsl(204, 43%, 93%);
     font-size: 16px;
+    margin-block: 5rem;
 }
 
 /* Header Styles */
-.header{
-    margin-block-start: 5rem;
-    border-radius: 5px 5px 0px 0px;
-    padding-inline: 1.4rem;
+.header{    
     background-color: white;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    border-radius: 5px 5px 0px 0px;
 }
 
-.header h2{
+.header h3{
     font-weight: 700;
     color: hsl(179, 62%, 43%);
-    padding-block: 1.7rem;
+    padding-block-end: 1.7rem;
 }
 
 .header h4{
@@ -36,11 +37,13 @@ body{
 .header p{
     font-weight: 400;
     color: hsl(218, 22%, 67%);
-    padding-block-end: 1.8rem;
     line-height: 1.5rem;
 }
 
 /* Main Styles */
+
+
+/* Main Styles
 article{
     background-color: hsl(179, 62%, 43%);
     padding-inline: 1.4rem;
@@ -92,7 +95,7 @@ aside{
     background-color: hsl(179, 47%, 52%);
     padding-inline: 1.4rem;
     /* color: hsl(204, 43%, 93%); */
-    border-radius: 0px 0px 5px 5px;
+    /* border-radius: 0px 0px 5px 5px;
     margin-block-end: 5rem;
 }
 
@@ -110,10 +113,10 @@ aside ul{
 
 ul li {
     list-style: none;
-}
+} */ */
 
 /* Desktop Design */
-@media screen and (min-width: 624px){
+/* @media screen and (min-width: 624px){
     .container{
         display: flex;
         width: 100%;
@@ -139,4 +142,4 @@ ul li {
     body{
         max-width: 700px;
     }
-}
+} */
